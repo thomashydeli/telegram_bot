@@ -1,0 +1,6 @@
+[submodule "mcp-servers/email-assistant"]
+	path = mcp-servers/email-assistant
+	url = git@github.com:thomashydeli/email-assistant.git
+[submodule "mcp-servers/trader-bot"]
+	path = mcp-servers/trader-bot
+	url = git@github.com:thomashydeli/trader-bot.git
