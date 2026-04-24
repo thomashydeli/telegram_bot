@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "email-assistant": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/user/directory",
+        "python",
+        "mail_research_mcp.py"
+      ]
+    },
+    "ticker-analyzer": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/user/directory",
+        "ticker-analyzer"
+      ]
+    }
+  }
+}

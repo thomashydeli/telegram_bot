@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Bridge runtime state (personal data — never commit). Ignore contents but
+# keep the directories via .gitkeep — you can't re-include a file inside a
+# fully-ignored directory, so we ignore contents only.
+sessions/*
+memory/*
+!sessions/.gitkeep
+!memory/.gitkeep
+.mcp.json
+DESIGN.md
+com.you.claude-bridge.plist
+auths
